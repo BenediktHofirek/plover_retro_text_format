@@ -52,6 +52,7 @@ def retro_snake(ctx, cmdline):
     action.text = transformed
     action.word = transformed
     action.prev_attach = True
+
     return action
 
 def retro_screaming(ctx, cmdline):
